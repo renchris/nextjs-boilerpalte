@@ -8,7 +8,7 @@ const Hero = ({ title }: { title: string }) => (
     bgGradient="linear(to-l, heroGradientStart, heroGradientEnd)"
     bgClip="text"
   >
-    <Heading fontSize="6vw">{title}</Heading>
+    <Heading as="h1" size="h1">{title}</Heading>
   </Flex>
 )
 
