@@ -1,5 +1,4 @@
 import { extendTheme } from '@chakra-ui/react'
-import { createBreakpoints } from '@chakra-ui/theme-tools'
 import components from './components'
 
 const fonts = {
@@ -7,12 +6,12 @@ const fonts = {
   body: 'Poppins, sans-serif',
 }
 
-const breakpoints = createBreakpoints({
+const breakpoints = {
   sm: '40em',
   md: '52em',
   lg: '64em',
   xl: '80em',
-})
+}
 
 const theme = extendTheme({
   semanticTokens: {
